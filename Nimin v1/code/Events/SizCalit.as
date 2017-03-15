@@ -1332,7 +1332,7 @@ function doSizCalit():void{
 	
 	else if (chance == 4){
 		textL("You wander about the tree-borne city, enjoying the sights and sounds.\r\rFelins are quite the agile people, able to work so high up in the canopy. Some spend their time harvesting various fruits from the nearby trees, while some others hunt for birds or even head down to the jungle floor for other game. Others have varying other professions, but they're all mostly laid back. It's not uncommon to catch someone dozing off in the middle of the day, the warm atmosphere quickly sending them to sleep.\r\rThere's also a few places to socialize, often in the form of singing or milk drinking. Since they don't have their own cows, they rely on their more abundant source for milk: their women.\r\rBeing a woman in Siz'Calit seems to be quite profitable, with many of the more wealthy families being headed by females. And when they go into their heat, well... they're probably one of the greater powers to reckon with in this community.\r\rThe males seem to be rather happy nevertheless. At the very least, they don't have to worry about finding mates.\r\rOther than enjoying yourself, there's nothing else you find to do.");
-		stats(0,1,0,0);
+		stats(999,999,999,999);
 		hrs = 2;
 		doEnd();
 	}
